@@ -1,6 +1,6 @@
 ##Support:
 
-  **Rails3.0+/Mongoid2.0.2+**
+  **Rails3.0+/Mongoid2.0.2+/Ruby1.8/1.9**
 
 ##Usage:
 
@@ -15,7 +15,7 @@
     class Topic
       referenced_in :forum
       include Mongoid::CounterCache
-      counter_cache name: :forum, inverse_of: :posts
+      counter_cache :name => :forum, :inverse_of => posts
     end
 
 
