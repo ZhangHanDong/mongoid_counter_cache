@@ -6,7 +6,7 @@ require "mongoid_counter_cache/version"
 #  ruby
 #  
 #  Created by Zhang Alex on 2011-06-17.
-#  Copyright 2011 __KittyPad.com__. All rights reserved.
+#  Copyright 2011 __blackanger.z@gmail.com__. All rights reserved.
 # 
 # ===================================
 # class Forum
